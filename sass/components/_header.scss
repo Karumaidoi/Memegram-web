@@ -1,0 +1,43 @@
+.header {
+  background-color: var(--color-primary-main);
+  width: 100vw;
+  height: 80vh;
+  background-image: url(../img/memegram.jpg);
+  image-rendering: optimizeSpeed;
+  background-size: cover;
+
+  &__top {
+    padding: 20px 22px;
+
+    display: flex;
+    justify-content: space-between;
+
+    &-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__content {
+    display: grid;
+    margin: 45px 0px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 200px);
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    &--main {
+      align-self: center;
+      // height: 300px;
+      p {
+        margin-top: 25px;
+        color: var(--color-white);
+        font-weight: 400;
+        line-height: 2;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.u-margin-top {
+  margin: 10px;
+}
+
+.color-text {
+  color: black;
+}
+
+.u-mg-left {
+  margin-left: 25px;
+}
+
+.u-mg-left2 {
+  margin-left: 12px;
+}
+
+@mixin clearfix {
+  &::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  fill: white;
+}
+
+.icon2 {
+  height: 40px;
+  width: 40px;
+  fill: white;
+}
+
+.position {
+  display: flex;
+  align-content: center;
+}

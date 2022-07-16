@@ -1,0 +1,19 @@
+//Imports the base component of the app
+@import 'base/base';
+
+//Our app variables lies here
+@import 'abstract/variables';
+@import 'abstract/mixins';
+@import 'abstract/tpography';
+
+//
+@import 'components/header';
+@import 'components/btn';
+@import 'components/footer';
+
+
+//
+@import 'layout/row';
+@import 'layout/desc';
+@import 'layout/gallerly';
+@import 'layout/testimonials';
