@@ -45,6 +45,11 @@ body {
 .color-text {
   color: black; }
 
+.link-home {
+  text-decoration: none; }
+  .link-home:link, .link-home:visited {
+    text-decoration: none; }
+
 .u-style-sec {
   background-color: var(--color-primary-main); }
 

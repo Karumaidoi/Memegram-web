@@ -6,6 +6,15 @@
   color: black;
 }
 
+.link-home {
+  text-decoration: none;
+
+  &:link,
+  &:visited {
+    text-decoration: none;
+  }
+}
+
 .u-style-sec {
   background-color: var(--color-primary-main);
 }
