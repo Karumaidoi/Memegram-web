@@ -111,7 +111,7 @@ body {
 .btn {
   display: inline-block;
   padding: 10px 14px;
-  font-family: "Lato", sans-serif;
+  font-family: "Turing", sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
   border-radius: 8px;
@@ -126,7 +126,7 @@ body {
   .btn:link, .btn:visited {
     display: inline-block;
     padding: 10px 14px;
-    font-family: "Lato", sans-serif;
+    font-family: "Turing", sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
     border-radius: 200px;
@@ -147,7 +147,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 10px 14px;
-  font-family: "Lato", sans-serif;
+  font-family: "Turing", sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
   border-radius: 8px;
@@ -161,7 +161,7 @@ body {
   .btn2:link, .btn2:visited {
     display: inline-block;
     padding: 10px 14px;
-    font-family: "Lato", sans-serif;
+    font-family: "Turing", sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
     border-radius: 2px;

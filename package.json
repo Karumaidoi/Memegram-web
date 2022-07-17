@@ -2,7 +2,7 @@
   "name": "memegram",
   "version": "1.0.0",
   "description": "A meme sharing application",
-  "source": "index.html",
+  "source": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css",
     "start": "parcel index.html",
