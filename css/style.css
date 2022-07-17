@@ -194,6 +194,23 @@ body {
     line-height: 2;
     text-align: center; }
 
+.header__learn {
+  height: 45px;
+  width: 100vw;
+  background-color: var(--color-primary-main);
+  display: flex;
+  align-items: center; }
+  .header__learn--logo {
+    display: flex; }
+    .header__learn--logo h2 {
+      font-size: 14px;
+      color: white;
+      margin-left: 20px; }
+    .header__learn--logo img {
+      height: 20;
+      width: 20;
+      margin-left: 20px; }
+
 .row {
   max-width: var(--grid-width);
   margin: 0 auto; }
