@@ -7,17 +7,34 @@
   align-items: center;
 
   &--logo {
-      display: flex;
+    display: flex;
 
-      h2 {
-          font-size: 14px;
-          color: white;
-          margin-left: 20px;
-      }
+    h2 {
+      font-size: 14px;
+      color: white;
+      margin-left: 20px;
+    }
     img {
       height: 20;
       width: 20;
       margin-left: 20px;
+    }
+  }
+}
+
+.section__desc--learn {
+  padding: 50px 0px;
+
+  &--grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 300px);
+    grid-gap: 40px;
+
+    &__right {
+      img {
+        width: 100%;
+      }
     }
   }
 }
